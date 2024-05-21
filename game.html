@@ -1,0 +1,27 @@
+<DOCTYPE! html>
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet" type="text/css" media="all" >
+	</head>
+
+<body>
+<h1> click the button as many times as possible </h1>
+
+<div class="counter-container">
+  <span id="counter">0</span>
+  <button id="increment-btn">click idk</button>
+</div>
+
+<a href="index.html"> < back </a>
+
+</body>
+<script>
+  let counter = 0;
+
+  document.getElementById("increment-btn").addEventListener("click", function() {
+    counter++;
+    document.getElementById("counter").textContent = counter.toString();
+  });
+</script>
+</html>
+
