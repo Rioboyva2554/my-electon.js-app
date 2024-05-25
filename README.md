@@ -1,2 +1,4 @@
-<h1> This is not a fully fleged app </h1>
-<p> this is just a test but  maybe it will be one day</p>
+<h1> <strong>YOU CANNOT COMPILE THIS IN ELECTRON FORGE</strong> </h1>
+<p> unfortunately i cannot commit a file since its over 100mb and I'm to lazy to use github lfs (It was a file in node modules) Because I didnt know if it would make it work or not, so I removed it all
+
+</p>
