@@ -11,6 +11,7 @@ function createWindow () {
       preload: path.join(__dirname, 'preload.js')
     }
   })
+  if (require('electron-squirrel-startup')) app.quit();
 
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')

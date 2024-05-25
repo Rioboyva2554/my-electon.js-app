@@ -1,11 +1,11 @@
 {
-  "name": "inexpensive-ambition-send-pit79",
-  "productName": "inexpensive-ambition-send-pit79",
-  "description": "My Electron application description",
+  "name": "My electron.js app",
+  "productName": "My electron.js app",
+  "description": "An app i made to test html and eventually make into a proper app",
   "keywords": [],
   "main": "./main.js",
   "version": "1.0.0",
-  "author": "rio",
+  "author": "Rioboyva2554",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -13,15 +13,20 @@
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\""
   },
-  "dependencies": {},
   "devDependencies": {
-    "electron": "30.0.2",
-    "@electron-forge/cli": "7.3.1",
-    "@electron-forge/maker-deb": "7.3.1",
-    "@electron-forge/maker-rpm": "7.3.1",
-    "@electron-forge/maker-squirrel": "7.3.1",
-    "@electron-forge/maker-zip": "7.3.1"
+    "@electron-forge/cli": "^7.4.0",
+    "@electron-forge/maker-deb": "^7.4.0",
+    "@electron-forge/maker-rpm": "^7.4.0",
+    "@electron-forge/maker-squirrel": "^7.4.0",
+    "@electron-forge/maker-zip": "^7.4.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
+    "@electron-forge/plugin-fuses": "^7.4.0",
+    "@electron/fuses": "^1.8.0",
+    "electron": "30.0.2"
   },
   "config": {},
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1"
+  }
 }
